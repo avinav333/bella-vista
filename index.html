@@ -93,20 +93,86 @@
             </div>
             <div class="reservation">
                 <h3>Make Reservation</h3>
-                <ul>
-                    <li class="labeling"><label for="fname">First Name :</label></li>
-                    <li><input type="text" id="fname" class="box"></li>
-                    <li class="labeling"><label for="email">Email :</li>
-                    <li><input type="email" id="email" class="box"></li>
-                    <li class="labeling"><label for="ph">Phone No : </li>
-                    <li><input type="number" id="ph" class="box"></li>
-                    <li class="labeling"><label for="rd">Reservation Date : </li>
-                    <li><input type="date" id="rd" class="box"></li>
-                    <li class="labeling"><label for="rt">Reservation Time : </li>
-                    <li><input type="time" id="rt" class="box"></li>
-                </ul>
+                <form action="">
+                    <ul>
+                        <li class="labeling"><label for="fname">First Name :</label></li>
+                        <li><input type="text" id="fname" class="box"></li>
+                        <li class="labeling"><label for="email">Email :</label></li>
+                        <li><input type="email" id="email" class="box"></li>
+                        <li class="labeling"><label for="ph">Phone No :</label> </li>
+                        <li><input type="number" id="ph" class="box"></li>
+                        <li class="labeling"><label for="rd">Reservation Date :</label></li>
+                        <li><input type="date" id="rd" class="box"></li>
+                        <li class="labeling"><label for="rt">Reservation Time :</label></li>
+                        <li><select name="time" id="time" class="box">
+                                <option value="">select time</option>
+                                <option value="18:00"> 6 p.m</option>
+                                <option value="19:00"> 7 p.m</option>
+                                <option value="20:00"> 8 p.m</option>
+                                <option value="21:00"> 9 p.m</option>
+                            </select></li>
+                        <!-- <li><input type="time" id="rt" class="box"></li> -->
+                        <li class="labeling"><label for="ng">Number of Guests :</label></li>
+                        <li><select name="guests" id="guests" class="box">
+                                <option value="">select the no. of guests</option>
+                                <option value="7"> 7 people</option>
+                                <option value="8"> 8 people</option>
+                                <option value="9"> 9 people</option>
+                                <option value="10">10 people</option>
+                            </select>
+                        </li>
+                        <!-- <li><input type="number" id="ng" class="box"></li> -->
+                        <li>
+                            <div class="submit"><input type="submit" id="submit"></div>
+                        </li>
+                    </ul>
+                </form>
             </div>
         </div>
+    </div>
+    <div class="footer">
+        <div class="right">
+            <div class="r1">
+                <h3>Bella Vista</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel recusandae quo est. Asperiores ipsa rem
+                    at iusto, dolorem perspiciatis quam.</p>
+            </div>
+            <div class="r2">
+                <h3>Quick Links</h3>
+                <div class="ql">
+                    <ul>
+                        <li><a href="#homee" class="nav2">Home</a></li>
+                        <li><a href="#menuuu" class="nav2">Menu</a></li>
+                        <li><a href="#about" class="nav2">About </a></li>
+                        <li><a href="#contactt" class="nav2">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="left">
+            <div class="l1">
+                <h3>Opening Hours</h3>
+                <p>Monday - Thursday: 11:00 AM -
+
+                    10:00 PM </p>
+
+                    <p>Friday - Saturday: 11:00 AM - 11:00 PM</p>
+
+                    <p>Sunday: 12:00 PM - 9:00 PM</p>
+                </p>
+            </div>
+            <div class="l2">
+                <h3>Follow Us</h3>
+                <div class="socialmedia">
+                    <a href="">Facebook</a>
+                    <a href="">Instagram</a>
+                    <a href="">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="last">
+        <p>@ 2024 Bella Vista Resturant. All rights reserved.</p>
     </div>
 </body>
 
