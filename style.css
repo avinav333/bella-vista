@@ -687,6 +687,9 @@ hr {
     .aboutdescription {
         text-align: center;
     }
+    .bodypart img{
+        transform: scale(0.8);
+    }
 
     .contactbody {
         flex-direction: column;
